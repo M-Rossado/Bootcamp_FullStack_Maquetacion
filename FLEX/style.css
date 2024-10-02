@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(159, 159, 161);
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgArt{
+    width: 200px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.artic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.artic2{
+    order: 0;
+}
+.artic3{
+    order: 1;
+}
+.artic1{
+    order: 2;
+}
+
